@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Login - Access Spice</title>
-  <style>body {
+  <title>Access Spice</title>
+  <style>
+    body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -82,20 +83,21 @@ a.back {
   margin-top: 15px;
   font-size: 0.9em;
 }
-</style>
+
+  </style>
 </head>
-<body class="login">
+<body class="welcome">
   <div class="container">
-    <h2>Access Space</h2>
-    <h3>Log In</h3>
+    <h1>Access Space</h1>
+    <p class="subtitle">Accessible Navigation</p>
 
-    <input type="email" placeholder="Email" />
-    <input type="password" placeholder="Password" />
-    <a href="#">Forgot Password?</a>
+    <button onclick="location.href='login and signup.html'">Log In</button>
+    <button>Use as Guest</button>
 
-    <button onclick="window.location.href='logout.html'">Log In</button>
-    <button class="secondary">Sign Up</button>
-    <button onclick="window.location.href='project.html'">← Back</button>
+    <div class="bottom-buttons">
+      <button onclick="location.href='menu.html'">About</button>
+      <button onclick="location.href='setting.html'">Settings</button>
+    </div>
   </div>
 </body>
 </html>
